@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 12:19:09 PM
+    Author     : frontend
+*/
+
+/*
+
+> 0px   XS - NO NAME
+
+
+> 576px SM - small devices
+
+
+
+> 768px MD  - medium devices
+
+
+> 992px  LG    large devices
+
+
+
+> 1200px  XL   extra large devices
+
+*/
+
+@media (min-width: 576px) {
+    /* slider */
+    .slider-wrapper .lead-slider-content {
+      padding-top: 15px;
+    }
+
+    .paid-plan .form-btn{
+        margin-top: 40px !important;
+    }
+}
+
+@media (min-width: 768px) {
+  /* navigation */
+  .navbar .navbar-nav .nav-item .nav-link {
+    border-bottom: 4px solid transparent;
+    margin-right: 18px;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link.active,
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 4px solid #1fdb84;
+  }
+
+  .navbar .register,
+  .get-started {
+    width: 120px;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link.active,
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    animation: 0 0s linear;
+  }
+
+  /* slider */
+  .slider-wrapper .lead-slider-content h1 {
+    font-size: 38px;
+  }
+  .slider-wrapper .lead-slider-content {
+    padding-top: 100px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  /* navigation */
+  .navbar .navbar-nav .nav-item .nav-link {
+    border-bottom: 4px solid transparent;
+    margin-right: 36px;
+  }
+   /* slider */
+  .slider-wrapper .lead-slider-content {
+    padding-top: 156px;
+  }
+  .slider-wrapper .bx-wrapper .bx-pager.bx-default-pager a {
+      margin-bottom: 160px;
+    }
+     /* top-articles */
+    .top-articles{
+        margin-top: -140px; 
+    }
+}
+
+@media (min-width: 1200px) {
+    /* slider */
+   .slider-wrapper .lead-slider-content {
+     padding-top: 190px;
+   }
+}
