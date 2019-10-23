@@ -29,14 +29,38 @@ and open the template in the editor.
 */
 
 @media (min-width: 576px) {
-    /* slider */
-    .slider-wrapper .lead-slider-content {
-      padding-top: 15px;
-    }
+  /* slider */
+  .slider-wrapper .lead-slider-content {
+    padding-top: 15px;
+  }
 
-    .paid-plan .form-btn{
-        margin-top: 40px !important;
-    }
+  .paid-plan .form-btn {
+    margin-top: 40px !important;
+  }
+  /* top articles */
+  .top-articles .top-articles-content {
+    padding: 30px 45px 0 45px;
+  }
+  /* what section */
+  .what .what-title {
+    width: 50%;
+  }
+  /* section gallery */
+  .gallery-img .gallery-img-item figure .plus-hover {
+    height: 50px;
+    width: 50px;
+    line-height: 46px;
+  }
+
+  /*section clients*/
+  .clients .nav .nav-item {
+    flex: 1 1 auto;
+  }
+  /* footer */
+  footer .breadcrumb .breadcrumb-item a,
+  footer .breadcrumb .breadcrumb-item:first-of-type a {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -62,13 +86,41 @@ and open the template in the editor.
   }
 
   /* slider */
+  .bx-wrapper img {
+    padding-top: 40px;
+  }
   .slider-wrapper .lead-slider-content h1 {
     font-size: 38px;
   }
   .slider-wrapper .lead-slider-content {
     padding-top: 100px;
   }
+  /* top-articles */
+  .top-articles .top-articles-content {
+    padding: 25px 12px 0 30px;
+  }
+  /* what section */
+  .what .what-title {
+    width: 75%;
+  }
+  .owl-theme .owl-dots {
+    padding-top: 50px;
+  }
+  /*section clients*/
 
+  .clients .nav .nav-item {
+    flex: 1 1 0;
+  }
+
+  .clients .nav li:nth-of-type(4) img {
+    width: 50%;
+  }
+  /* footer */
+  footer .breadcrumb .breadcrumb-item a,
+  footer .breadcrumb .breadcrumb-item:first-of-type a {
+    font-size: 16px;
+    padding: 0 10px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -77,22 +129,34 @@ and open the template in the editor.
     border-bottom: 4px solid transparent;
     margin-right: 36px;
   }
-   /* slider */
+  /* slider */
   .slider-wrapper .lead-slider-content {
     padding-top: 156px;
   }
   .slider-wrapper .bx-wrapper .bx-pager.bx-default-pager a {
-      margin-bottom: 160px;
-    }
-     /* top-articles */
-    .top-articles{
-        margin-top: -140px; 
-    }
+    margin-bottom: 160px;
+  }
+  /* top-articles */
+  .top-articles {
+    margin-top: -140px;
+  }
+  .top-articles .top-articles-content {
+    padding: 30px 45px 0 45px;
+  }
+  .owl-theme .owl-dots {
+    padding-top: 70px;
+  }
+  .five-cols .col-lg-3 {
+    flex: 0 0 20%;
+  }
+  .clients {
+    margin-bottom: 120px;
+  }
 }
 
 @media (min-width: 1200px) {
-    /* slider */
-   .slider-wrapper .lead-slider-content {
-     padding-top: 190px;
-   }
+  /* slider */
+  .slider-wrapper .lead-slider-content {
+    padding-top: 190px;
+  }
 }
