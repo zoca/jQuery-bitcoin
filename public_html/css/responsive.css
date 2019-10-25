@@ -29,14 +29,6 @@ and open the template in the editor.
 */
 
 @media (min-width: 576px) {
-  /* slider */
-  .slider-wrapper .lead-slider-content {
-    padding-top: 15px;
-  }
-
-  .paid-plan .form-btn {
-    margin-top: 40px !important;
-  }
   /* top articles */
   .top-articles .top-articles-content {
     padding: 30px 45px 0 45px;
@@ -92,21 +84,32 @@ and open the template in the editor.
   .slider-wrapper .lead-slider-content h1 {
     font-size: 38px;
   }
-  .slider-wrapper .lead-slider-content {
-    padding-top: 100px;
-  }
   /* top-articles */
   .top-articles .top-articles-content {
     padding: 25px 12px 0 30px;
   }
+
+   /* paid plan */
+   .paid-plan .paid-plan-content{
+    padding-top: 56px !important;
+   }
+
+   .paid-plan .form-btn {
+     margin-top: 87px !important;
+   }
+
   /* what section */
   .what .what-title {
     width: 75%;
   }
   .owl-theme .owl-dots {
-    padding-top: 50px;
+    padding-bottom: 50px;
   }
   /*section clients*/
+
+  .clients{
+    margin-bottom: 50px;
+}
 
   .clients .nav .nav-item {
     flex: 1 1 0;
@@ -130,9 +133,6 @@ and open the template in the editor.
     margin-right: 36px;
   }
   /* slider */
-  .slider-wrapper .lead-slider-content {
-    padding-top: 156px;
-  }
   .slider-wrapper .bx-wrapper .bx-pager.bx-default-pager a {
     margin-bottom: 160px;
   }
@@ -144,7 +144,7 @@ and open the template in the editor.
     padding: 30px 45px 0 45px;
   }
   .owl-theme .owl-dots {
-    padding-top: 70px;
+    padding-bottom:70px;
   }
   .five-cols .col-lg-3 {
     flex: 0 0 20%;
@@ -155,8 +155,4 @@ and open the template in the editor.
 }
 
 @media (min-width: 1200px) {
-  /* slider */
-  .slider-wrapper .lead-slider-content {
-    padding-top: 190px;
-  }
 }

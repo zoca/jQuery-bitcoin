@@ -69,49 +69,45 @@ $(document).ready(function () {
             margin: 10,
             dots: false,
             loop: true,
-            slideBy: 3,
+            slideBy: 1,
             autoplay: true,
-            autoplayTimeout: 2000,
+            autoplayTimeout: 3000,
             autoplayHoverPause: true,
             responsive: {
                 0: {
-                    items: 2,
-                    slideBy: 1
+                    items: 2
                 },
                 400: {
-                    items: 3,
-                    slideBy: 1
+                    items: 3
                 },
                 700: {
-                    items: 5,
-                    slideBy: 2
+                    items: 5
                 },
-                1100: {
-                    items: 6,
-                    slideBy: 3
+                900: {
+                    items: 6
                 }
             }
         });
     }
 
-    // animation
-    function animation(){
+    //ANIMATION
+    function animation() {
         let windowHeight = $(window).height();
         let scroll = $(window).scrollTop();
 
-        $('.animation').each(function(){
+        $('.animation').each(function () {
             let position = $(this).offset().top;
             let animationName = $(this).attr('data-animation');
             let delay = $(this).attr('data-delay');
 
-            if(position  < windowHeight + scroll -100){
+            if (position < windowHeight + scroll - 100) {
                 $(this).addClass(animationName);
                 $(this).css('animation-delay', delay);
             }
         });
     }
 
-    $(window).scroll(function(){
+    $(window).scroll(function () {
         animation();
     });
 
